@@ -80,13 +80,13 @@
 			isa = PBXGroup;
 			children = (
 				6001EC83197B4EC300F97011 /* main.m */,
-				6001EC8E197B502F00F97011 /* Kitchen.h */,
-				6001EC8F197B502F00F97011 /* Kitchen.m */,
-				6001EC85197B4EC300F97011 /* Supporting Files */,
-				DAA230EC1E50573F0062D73A /* Pizza.h */,
-				DAA230ED1E50573F0062D73A /* Pizza.m */,
 				DAA230EF1E50F0520062D73A /* InputCollector.h */,
 				DAA230F01E50F0520062D73A /* InputCollector.m */,
+				6001EC8E197B502F00F97011 /* Kitchen.h */,
+				6001EC8F197B502F00F97011 /* Kitchen.m */,
+				DAA230EC1E50573F0062D73A /* Pizza.h */,
+				DAA230ED1E50573F0062D73A /* Pizza.m */,
+				6001EC85197B4EC300F97011 /* Supporting Files */,
 			);
 			path = PizzaRestaurant;
 			sourceTree = "<group>";

@@ -18,8 +18,8 @@ typedef NS_ENUM(NSInteger, PizzaSize){
     extraLarge
 };
 
-@property NSArray *pizzaToppings;
-@property PizzaSize sizeOfPizza;
+@property (nonatomic, strong) NSArray *pizzaToppings;
+@property (nonatomic) PizzaSize sizeOfPizza;
 
 - (instancetype)initWithSize:(PizzaSize)sizeOfPizza initWithToppings:(NSArray *)pizzaToppings;
 + (PizzaSize)convertSizeToString:(NSString *)sizeString;
